@@ -1,0 +1,251 @@
+.db {
+    width: 100%;
+    top: 0;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: pink;
+    border-radius: 15px;
+    text-align: left;
+}
+
+.zt {
+    width: 100px;
+    height: 98.5px;
+    top: 0.94%;
+    object-fit: cover;
+    border-radius: 15px 0px 0px 15px;
+    position: absolute;
+}
+
+.fg {
+    width: 101%;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    left: -1%;
+}
+
+.nr {
+    width: 55%;
+    height: 85%;
+    background-color: rgba(255, 255, 255, 0.8);
+    position: absolute;
+    top: 13%;
+    left: 22%;
+    border-radius: 20px;
+}
+
+.test {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 1%;
+    left: 3%;
+    border-radius: 10px;
+    transition: all 0.4s;
+}
+
+.test:hover {
+    position: absolute;
+    width: 103%;
+    height: 103%;
+    top: 0.5%;
+    left: 1.5%;
+    border-radius: 10px;
+    transition: all 0.4s;
+}
+
+body {
+    background-image: url(./02.png);
+}
+
+.testdiv {
+    position: absolute;
+    width: 45%;
+    height: 35%;
+}
+
+
+.testdiv:hover .test {
+    position: absolute;
+    width: 103%;
+    height: 103%;
+    top: 0.5%;
+    left: 1.5%;
+    border-radius: 10px;
+    transition: all 0.6s;
+}
+
+
+.testdiv:hover .bl {
+    position: absolute;
+    width: 103%;
+    height: 15%;
+    top: 88.5%;
+    left: 1.5%;
+    opacity: 1;
+    transition: all 0.8s;
+}
+
+.bl {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    z-index: 3;
+    width: 100%;
+    height: 15%;
+    top: 86.4%;
+    left: 3%;
+    border-radius: 0px 0px 10px 10px;
+    opacity: 0;
+    transition: all 0.4s;
+    text-align: center;
+    font-size: 200%;
+    font-weight: bolder;
+}
+
+.wxts{
+    position: absolute;
+    width: 100%;
+    height: 5%;
+    top: 95%;
+    color: rgba(0, 0, 0, 1);
+    text-align: center;
+    font-weight: bolder;
+    font-size: 150%;
+}
+
+.js{
+    position: absolute;
+    width: 98%;
+    text-align: center;
+    font-size: 150%;
+    font-weight: bolder;
+    top: 0;
+}
+
+.fwqtp{
+    position: absolute;
+    width: 60%;
+    height: 40%;
+    top: 10%;
+    left: 19%;
+}
+
+.by{
+    position: absolute;
+    width: 98%;
+    top: 4%;
+    text-align: center;
+}
+
+.zjs{
+    position: absolute;
+    width: 98%;
+    top: 50%;
+    left: 30%;
+    font-weight: bolder;
+    font-size: 200%;
+}
+
+.ip{
+    position: absolute;
+    width: 98%;
+    top: 73%;
+    left: 30%;
+    font-weight: bolder;
+    font-size: 125%;
+}
+
+.copy{
+    position: absolute;
+    top: 80%;
+    left: 40%;
+    width: 15%;
+    height: 10%;
+    background-color: rgba(54, 224, 0, 1);
+    font-weight: bolder;
+    font-size: 150%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px black;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.copy:hover{
+    background-color: rgba(48, 198, 0, 1);
+    transition: all 0.2s;
+}
+
+#ipd{
+    position: absolute;
+    top: 10%;
+    font-weight: bolder;
+}
+
+.qqdiv {
+    position: absolute;
+    width: 45%;
+    height: 35%;
+    left: 52.1%;
+}
+
+
+.qqdiv:hover .qqtp {
+    position: absolute;
+    width: 103%;
+    height: 103%;
+    top: 0.5%;
+    left: 1.5%;
+    border-radius: 10px;
+    transition: all 0.6s;
+}
+
+
+.qqdiv:hover .blq {
+    position: absolute;
+    width: 103%;
+    height: 15%;
+    top: 88.5%;
+    left: 1.5%;
+    opacity: 1;
+    transition: all 0.6s;
+}
+
+.blq {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    z-index: 3;
+    width: 100%;
+    height: 15%;
+    top: 86.4%;
+    left: 3%;
+    border-radius: 0px 0px 10px 10px;
+    opacity: 0;
+    transition: all 0.4s;
+    text-align: center;
+    font-size: 200%;
+    font-weight: bolder;
+}
+
+.qqtp {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 1%;
+    left: 3%;
+    border-radius: 10px;
+    background-color: white;
+    transition: all 0.4s;
+}
+
+.qqtp:hover {
+    position: absolute;
+    width: 103%;
+    height: 103%;
+    top: 0.5%;
+    left: 1.5%;
+    border-radius: 10px;
+    transition: all 0.4s;
+}
