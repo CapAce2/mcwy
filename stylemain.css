@@ -98,7 +98,7 @@ body {
     font-weight: bolder;
 }
 
-.js{
+.js {
     position: absolute;
     width: 98%;
     text-align: center;
@@ -107,7 +107,7 @@ body {
     top: 0;
 }
 
-.fwqtp{
+.fwqtp {
     position: absolute;
     width: 40%;
     height: 40%;
@@ -115,14 +115,14 @@ body {
     left: 30%;
 }
 
-.by{
+.by {
     position: absolute;
     width: 98%;
     top: 4%;
     text-align: center;
 }
 
-.zjs{
+.zjs {
     position: absolute;
     width: 50%;
     top: 50%;
@@ -131,7 +131,7 @@ body {
     font-size: 200%;
 }
 
-.ip{
+.ip {
     position: absolute;
     width: 50%;
     top: 73%;
@@ -140,7 +140,7 @@ body {
     font-size: 125%;
 }
 
-.copy{
+.copy {
     position: absolute;
     top: 80%;
     left: 43%;
@@ -155,12 +155,12 @@ body {
     transition: all 0.2s;
 }
 
-.copy:hover{
+.copy:hover {
     background-color: rgba(48, 198, 0, 1);
     transition: all 0.2s;
 }
 
-#ipd{
+#ipd {
     position: absolute;
     top: 10%;
     font-weight: bolder;
@@ -233,7 +233,7 @@ body {
     transition: all 0.4s;
 }
 
-.sydiv{
+.sydiv {
     position: absolute;
     width: 90%;
     height: 5%;
@@ -245,11 +245,11 @@ body {
     left: 5%;
 }
 
-.sydiv:hover{
+.sydiv:hover {
     background-color: rgba(255, 255, 255, 1);
 }
 
-.gydiv{
+.gydiv {
     position: absolute;
     width: 90%;
     height: 5%;
@@ -261,11 +261,11 @@ body {
     left: 5%;
 }
 
-.gydiv:hover{
+.gydiv:hover {
     background-color: rgba(255, 255, 255, 1);
 }
 
-.sy{
+.sy {
     position: absolute;
     width: 30%;
     height: 100%;
@@ -273,7 +273,7 @@ body {
     left: 0;
 }
 
-.gy{
+.gy {
     position: absolute;
     width: 50%;
     height: 190%;
@@ -281,7 +281,7 @@ body {
     left: -10%;
 }
 
-.myself{
+.myself {
     position: absolute;
     top: 5%;
     left: 36.5%;
@@ -290,7 +290,7 @@ body {
     border: 3px solid black;
 }
 
-.gyzjs{
+.gyzjs {
     position: absolute;
     width: 50%;
     top: 55%;
@@ -299,10 +299,99 @@ body {
     font-size: 200%;
 }
 
-.wxts{
+.wxts {
     position: absolute;
     font-weight: bolder;
     font-size: 150%;
     top: 95%;
     left: 40%;
+}
+
+
+
+
+@media (max-width:900px) {
+    .db {
+        position: absolute;
+        width: 99%;
+        top: 0;
+        height: 10%;
+        background-color: rgba(255, 255, 255, 0.8);
+        color: pink;
+        border-radius: 15px;
+        text-align: left;
+        left: 0.5%;
+    }
+    .nr{
+        position: absolute;
+        width: 99%;
+        height: 80%;
+        top: 15%;
+        left: 0.5%;
+    }
+    .zt{
+        width: 20%;
+        height: 95%;
+        left: 3%;
+    }
+    .bl{
+        font-size: 100%;
+    }
+    .blq{
+        font-size: 100%;
+    }
+    .testdiv{
+        width: 90%;
+        left: 2.5%;
+    }
+    .qqdiv{
+        position: absolute;
+        width: 90%;
+        top: 33%;
+        left: auto;
+        left: 2.5%;
+    }
+    .wxts{
+        left: 10%;
+        font-size: 100%;
+    }
+    .sydiv{
+        height: 50%;
+        width: 35%;
+        left: 24%;
+    }
+    .gydiv{
+        height: 50%;
+        width: 40%;
+        left: 60%;
+        top: 16.4%;
+    }
+    .zjs{
+        top: 40%;
+        font-size: 100%;
+        left: 20%;
+    }
+    .ip{
+        top: 75%;
+        left: 15%;
+    }
+    .fwqtp{
+        width: 80%;
+        height: 30%;
+        left: 10%;
+    }
+    .copy{
+        width: 50%;
+        left: 25%;
+    }
+    .gyzjs{
+        top: 60%;
+        font-size: 150%;
+        left: 20%;
+    }
+    .myself{
+        width: 90%;
+        height: 50%;
+        left: 5%;
+    }
 }
