@@ -307,7 +307,12 @@ body {
     left: 40%;
 }
 
-
+.z{
+    position: absolute;
+    font-size: 100%;
+    left: 32%;
+    top: 2%;
+}
 
 
 @media (max-width:900px) {
@@ -394,7 +399,14 @@ body {
         height: 50%;
         left: 5%;
     }
-     body{
-        background-image: url(https://image.dooo.ng/c/2025/01/27/67972ac229756.webp);
+    body{
+        background-image: url(https://image.dooo.ng/c/2025/01/27/679728146e73a.webp);
+    }
+    .z{
+        position: absolute;
+        font-size: 100%;
+        left: 32%;
+        top: -100%;
+        width: 120%;
     }
 }
